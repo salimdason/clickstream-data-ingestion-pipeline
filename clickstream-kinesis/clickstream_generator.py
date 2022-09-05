@@ -52,7 +52,7 @@ for _ in range(RECORDS):
     time.sleep(delay)
 
     event = {
-        "event_id": get_event(),
+        "event_id": get_event_id(),
         "event": get_event(),
         "user_id": get_user_id(),
         "event_time": get_event_time(),
